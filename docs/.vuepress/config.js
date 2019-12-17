@@ -10,6 +10,8 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "FirstBlog", link: "/blog/first-blog.md" }
-    ]
+    ],
+    sidebar: ["/", ["/blog/2016-08-23-CSS-Guide", "CSS-Guide"]],
+    displayAllHeaders: true // 默认值：false
   }
 };
